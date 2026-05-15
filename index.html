@@ -1,0 +1,298 @@
+<!-- Save as index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indian Materiverse Construction</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f5f5f5;
+      color:#333;
+    }
+
+    header{
+      background:#0d6efd;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    nav{
+      background:#222;
+      padding:12px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    nav a:hover{
+      color:#0d6efd;
+    }
+
+    .hero{
+      height:80vh;
+      background:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd')
+      no-repeat center center/cover;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      color:white;
+      padding:20px;
+    }
+
+    .hero-content{
+      background:rgba(0,0,0,0.6);
+      padding:40px;
+      border-radius:10px;
+    }
+
+    .hero h1{
+      font-size:50px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      font-size:20px;
+      margin-bottom:20px;
+    }
+
+    .btn{
+      padding:12px 25px;
+      background:#0d6efd;
+      color:white;
+      border:none;
+      border-radius:5px;
+      text-decoration:none;
+      font-size:18px;
+    }
+
+    .btn:hover{
+      background:#084298;
+    }
+
+    section{
+      padding:60px 10%;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:40px;
+      font-size:35px;
+      color:#0d6efd;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:white;
+      padding:25px;
+      border-radius:10px;
+      box-shadow:0 5px 10px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .card h3{
+      margin-bottom:15px;
+      color:#0d6efd;
+    }
+
+    .about{
+      background:white;
+      border-radius:10px;
+      padding:30px;
+      box-shadow:0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    footer{
+      background:#222;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    .contact-form{
+      display:flex;
+      flex-direction:column;
+      gap:15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+      padding:12px;
+      border:1px solid #ccc;
+      border-radius:5px;
+    }
+
+    .contact-form button{
+      padding:12px;
+      background:#0d6efd;
+      color:white;
+      border:none;
+      border-radius:5px;
+      cursor:pointer;
+    }
+
+    .contact-form button:hover{
+      background:#084298;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Indian Materiverse Construction</h1>
+    <p>Sustainable Construction Material Delivery Platform</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Smart Construction Solutions</h1>
+      <p>
+        Buy quality construction materials with smart delivery,
+        sustainable solutions, and affordable pricing.
+      </p>
+
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2 class="section-title">Our Features</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Real-Time Tracking</h3>
+        <p>
+          Track construction material deliveries using GPS-enabled systems.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Eco-Friendly Materials</h3>
+        <p>
+          Sustainable and environmentally friendly building materials.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Supplier Management</h3>
+        <p>
+          Connect suppliers and customers with smart inventory management.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Bulk Ordering</h3>
+        <p>
+          Easy bulk ordering with discounts and faster delivery services.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Secure Payments</h3>
+        <p>
+          Integrated secure payment gateways for safe transactions.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Cloud-Based Platform</h3>
+        <p>
+          Smart cloud infrastructure for scalable construction management.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Project</h2>
+
+    <div class="about">
+      <p>
+        Indian Materiverse Construction is a Design Thinking based project
+        developed to simplify construction material procurement and delivery.
+      </p>
+
+      <br>
+
+      <p>
+        The project focuses on sustainable construction practices,
+        supplier coordination, inventory management, smart logistics,
+        and eco-friendly material solutions.
+      </p>
+
+      <br>
+
+      <p>
+        Technologies and concepts used:
+      </p>
+
+      <ul style="margin-top:15px; margin-left:20px;">
+        <li>Cloud Computing</li>
+        <li>IoT Concepts</li>
+        <li>GPS Tracking</li>
+        <li>Supply Chain Management</li>
+        <li>Design Thinking Methodology</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <form class="contact-form">
+
+      <input type="text" placeholder="Enter your name" required>
+
+      <input type="email" placeholder="Enter your email" required>
+
+      <textarea rows="5" placeholder="Your message"></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Indian Materiverse Construction | Developed by Charan Reddy Team
+    </p>
+  </footer>
+
+</body>
+</html>
