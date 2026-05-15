@@ -1,0 +1,17 @@
+Indian-Materiverse-Construction/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── images/
+│   └── construction.jpg
+│
+├── screenshots/
+│   ├── img1.jpg
+│   ├── img2.jpg
+│   ├── img3.jpg
+│   └── img4.jpg
+│
+├── README.md
+└── DTM_Report.pdf
